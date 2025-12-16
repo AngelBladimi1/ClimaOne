@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>°ClimaOne | Mantenimiento y Reparación de Aires Acondicionados</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">
+      <i class="fas fa-snowflake icon-logo"></i>
+      <div class="logo-text">
+        <h1>°ClimaOne</h1>
+        <p>Confort y Climatización Profesional</p>
+      </div>
+    </div>
+
+    <nav id="nav">
+      <ul>
+        <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="#servicios"><i class="fas fa-tools"></i> Servicios</a></li>
+        <li><a href="#galeria"><i class="fas fa-images"></i> Galería</a></li>
+        <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h2 id="frase-dinamica">Tu confort, nuestra especialidad</h2>
+      <p>Expertos en instalación, mantenimiento y reparación de sistemas de aire acondicionado para hogares y empresas.</p>
+      <a href="#contacto" class="btn-presupuesto">Solicitar Presupuesto</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="img/instalacion.jpg" alt="Instalación de aire acondicionado" />
+        <div class="card-info">
+          <h3>Instalación</h3>
+          <p>Montaje profesional de equipos split, centrales y portátiles. Garantizamos eficiencia y seguridad.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/mantenimiento.jpg" alt="Mantenimiento de aire acondicionado" />
+        <div class="card-info">
+          <h3>Mantenimiento</h3>
+          <p>Prevenimos fallas, limpiamos filtros y aseguramos el máximo rendimiento de tus equipos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/reparacion.jpg" alt="Reparación de aire acondicionado" />
+        <div class="card-info">
+          <h3>Reparación</h3>
+          <p>Detectamos y solucionamos fallas eléctricas o de gas con rapidez y garantía.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section id="galeria" class="galeria">
+    <h2>Galería de Trabajo</h2>
+    <div class="galeria-grid">
+      <img src="img/proyecto1.jpeg" alt="Proyecto 1">
+      <img src="img/proyecto2.jpeg" alt="Proyecto 2">
+      <img src="img/proyecto3.jpeg" alt="Proyecto 3">
+      <img src="img/proyecto4.jpeg" alt="Proyecto 4">
+      <img src="img/proyecto5.jpeg" alt="Proyecto 5">
+      <img src="img/proyecto6.jpeg" alt="Proyecto 6">
+      <video src="video/reproducir1.mp4" controls></video>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <div class="contacto-header">
+      <h2 class="titulo-contacto"><i class="fas fa-phone-alt"></i> Contáctanos</h2>
+      <p class="subtitulo-contacto">¡Estamos listos para atenderte y resolver todas tus necesidades de aire acondicionado!</p>
+    </div>
+
+    <div class="contact-items">
+      <a href="https://wa.me/595987419188" target="_blank" class="contact-link"><i class="fab fa-whatsapp"></i> Enviar mensaje al WhatsApp</a>
+      <a href="mailto:bladimirgaleano1999@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> bladimirgaleano1999@gmail.com</a>
+    </div>
+
+    <form id="contactForm">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input type="email" id="email" placeholder="Tu correo" required />
+      <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit" class="btn-form">Enviar</button>
+    </form>
+    <div id="mensajeExito" class="mensaje-exito"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 °ClimaOne - Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
